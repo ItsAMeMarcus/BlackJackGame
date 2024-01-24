@@ -249,6 +249,7 @@ animations = [{
 
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_5651n")
+JUMP_VELOCITY = -200.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-7, -7)
@@ -257,6 +258,7 @@ shape = SubResource("RectangleShape2D_k7drw")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(-10, -9)
 sprite_frames = SubResource("SpriteFrames_w40pl")
-frame_progress = 0.0554487
+frame = 5
+frame_progress = 0.22503
 
 [connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]

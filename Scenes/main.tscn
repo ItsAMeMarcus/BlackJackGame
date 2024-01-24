@@ -1627,7 +1627,6 @@ position = Vector2(-2, 3)
 [node name="Player" parent="." instance=ExtResource("1_8fp0o")]
 position = Vector2(57, 609)
 scale = Vector2(1.48035, 1.48035)
-gravity = 200
 
 [node name="Level" type="TileMap" parent="."]
 position = Vector2(900, 190)
