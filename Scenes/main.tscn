@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://blw2ax4aiutjp"]
+[gd_scene load_steps=6 format=3 uid="uid://blw2ax4aiutjp"]
 
 [ext_resource type="PackedScene" uid="uid://cn73f748rci84" path="res://Scenes/player.tscn" id="1_8fp0o"]
 [ext_resource type="Texture2D" uid="uid://1bdvd6pt2ktd" path="res://Assets/Kings and Pigs/Sprites/14-TileSets/Terrain (32x32).png" id="2_qotr5"]
+[ext_resource type="PackedScene" uid="uid://chapi2ao0km08" path="res://Scenes/door.tscn" id="3_25opn"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_k7i14"]
 texture = ExtResource("2_qotr5")
@@ -1624,8 +1625,11 @@ sources/0 = SubResource("TileSetAtlasSource_k7i14")
 [node name="Main" type="Node2D"]
 position = Vector2(-2, 3)
 
+[node name="Door" parent="." instance=ExtResource("3_25opn")]
+position = Vector2(508, 599)
+
 [node name="Player" parent="." instance=ExtResource("1_8fp0o")]
-position = Vector2(57, 609)
+position = Vector2(508, 613)
 scale = Vector2(1.48035, 1.48035)
 
 [node name="Level" type="TileMap" parent="."]

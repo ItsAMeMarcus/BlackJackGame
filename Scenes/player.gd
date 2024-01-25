@@ -1,10 +1,11 @@
 extends CharacterBody2D
 
+var inspectable_text : RichTextLabel
 @export var SPEED = 100.0
 @export var JUMP_VELOCITY = -100.0
 var gravity  = ProjectSettings.get_setting("physics/2d/default_gravity")
 
-var is_attacking = false
+
 
 func player_animations():
 	if Input.is_action_pressed("ui_left") || Input.is_action_just_released("ui_jump"):
@@ -28,11 +29,13 @@ func horizontal_movement():
 
 func _input(event):
 	if event.is_action_pressed("ui_attack"):
-		is_attacking = true
+		Global.is_attacking = true
 		$AnimatedSprite2D.play("attack")
 		
 func _on_animated_sprite_2d_animation_finished():
-	is_attacking = false # Replace with function body.
+	Global.is_attacking = false
+	Global.is_on_door = false
+# Replace with function body.
 
 #movimento e fisica
 func _physics_process(delta):
@@ -49,6 +52,6 @@ func _physics_process(delta):
 	#aplica movimento
 	move_and_slide()
 	#aplica animacao
-	if !is_attacking:
+	if !Global.is_attacking:
 		player_animations()
 
