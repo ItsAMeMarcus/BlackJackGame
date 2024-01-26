@@ -4,6 +4,8 @@ var is_attacking = false
 
 var is_on_door = false
 
+var is_jumping = false
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass # Replace with function body.
