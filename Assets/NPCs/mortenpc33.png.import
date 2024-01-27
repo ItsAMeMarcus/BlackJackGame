@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dfm6vdt0lyor3"
-path="res://.godot/imported/palhaço-sarradorp.png-61d688771b18da85362835aa420e12ad.ctex"
+uid="uid://cg8wpy7ro3uft"
+path="res://.godot/imported/mortenpc33.png-238a7b0560ef07dcfb3a8408d3afe9b0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/palhaço-sarradorp.png"
-dest_files=["res://.godot/imported/palhaço-sarradorp.png-61d688771b18da85362835aa420e12ad.ctex"]
+source_file="res://Assets/NPCs/mortenpc33.png"
+dest_files=["res://.godot/imported/mortenpc33.png-238a7b0560ef07dcfb3a8408d3afe9b0.ctex"]
 
 [params]
 

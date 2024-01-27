@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dsekukkxld6o7"
-path="res://.godot/imported/marretaa.png-d8ac61660346f3ea266d8a3d2cc34876.ctex"
+uid="uid://dfm6vdt0lyor3"
+path="res://.godot/imported/palhaço-sarradorp.png-50edb94e83fdbe23600fc2faf5b2949e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/marretaa.png"
-dest_files=["res://.godot/imported/marretaa.png-d8ac61660346f3ea266d8a3d2cc34876.ctex"]
+source_file="res://Assets/Player/palhaço-sarradorp.png"
+dest_files=["res://.godot/imported/palhaço-sarradorp.png-50edb94e83fdbe23600fc2faf5b2949e.ctex"]
 
 [params]
 

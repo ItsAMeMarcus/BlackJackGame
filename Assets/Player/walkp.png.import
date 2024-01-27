@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://5bcxhtfmnxgb"
-path="res://.godot/imported/pulo-palhaçop.png-6871f6af963baf70f6ba04d6b505f70b.ctex"
+uid="uid://r0hu2k1c36ky"
+path="res://.godot/imported/walkp.png-2a4cc02c256b1fe3d6ed84d84edba194.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/pulo-palhaçop.png"
-dest_files=["res://.godot/imported/pulo-palhaçop.png-6871f6af963baf70f6ba04d6b505f70b.ctex"]
+source_file="res://Assets/Player/walkp.png"
+dest_files=["res://.godot/imported/walkp.png-2a4cc02c256b1fe3d6ed84d84edba194.ctex"]
 
 [params]
 

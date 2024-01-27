@@ -5,6 +5,13 @@ var inspectable_text : RichTextLabel
 @export var JUMP_VELOCITY = -100.0
 var gravity  = ProjectSettings.get_setting("physics/2d/default_gravity")
 
+ #custom signals
+signal update_lives(lives, max_lives)
+
+# health stats
+var max_lives = 3
+var lives = 3
+
 
 
 func player_animations():
@@ -37,9 +44,17 @@ func _input(event):
 	else:
 		Global.is_jumping = false
 
+func take_damage():
+	if lives > 0:
+		update_lives.emit(lives, max_lives)
+		print(lives)
+		$AnimatedSprite2D.play("damage")
+		set_physics_process(false)
+
 func _on_animated_sprite_2d_animation_finished():
 	Global.is_attacking = false
 	Global.is_on_door = false
+	set_physics_process(true)
 
 func _physics_process(delta):
 	# Add the gravity.

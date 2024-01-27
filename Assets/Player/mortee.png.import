@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dps3cvs2ssqxk"
-path="res://.godot/imported/marretaa.png-3cd23efb1e07c0c3519ecff581a8cf8b.ctex"
+uid="uid://bq5hl2uea1kpi"
+path="res://.godot/imported/mortee.png-cb09db2292788b3dec30dda58667fef5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scenes/marretaa.png"
-dest_files=["res://.godot/imported/marretaa.png-3cd23efb1e07c0c3519ecff581a8cf8b.ctex"]
+source_file="res://Assets/Player/mortee.png"
+dest_files=["res://.godot/imported/mortee.png-cb09db2292788b3dec30dda58667fef5.ctex"]
 
 [params]
 

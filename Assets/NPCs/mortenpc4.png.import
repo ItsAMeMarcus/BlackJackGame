@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bq5hl2uea1kpi"
-path="res://.godot/imported/mortee.png-1fa3ea425a371d49b4dc1ae18d00eb6d.ctex"
+uid="uid://5ykrdv8ii5r3"
+path="res://.godot/imported/mortenpc4.png-8326505a5ec2994bfc4ae406a20c0feb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scenes/mortee.png"
-dest_files=["res://.godot/imported/mortee.png-1fa3ea425a371d49b4dc1ae18d00eb6d.ctex"]
+source_file="res://Assets/NPCs/mortenpc4.png"
+dest_files=["res://.godot/imported/mortenpc4.png-8326505a5ec2994bfc4ae406a20c0feb.ctex"]
 
 [params]
 
