@@ -12,4 +12,13 @@ func _process(delta):
 
 
 func _on_body_entered(body):
-	if body.name == "Player" and body
+	pass
+
+func _on_area_entered(area):
+	$AnimatedSprite2D.play("npc_dead")
+	$Timer.start()
+
+
+func _on_timer_timeout():
+	if is_instance_valid(self):
+		self.queue_free()

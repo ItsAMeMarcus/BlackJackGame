@@ -1,14 +1,18 @@
-[gd_scene load_steps=5 format=3 uid="uid://bdc0vabda8df0"]
+[gd_scene load_steps=6 format=3 uid="uid://bdc0vabda8df0"]
 
 [ext_resource type="PackedScene" uid="uid://chapi2ao0km08" path="res://Scenes/door.tscn" id="1_xnp6t"]
 [ext_resource type="PackedScene" uid="uid://cn73f748rci84" path="res://Scenes/player.tscn" id="2_y8h0g"]
 [ext_resource type="TileSet" uid="uid://c8vke82aw7si7" path="res://Scenes/main.tres" id="3_8yt8l"]
 [ext_resource type="PackedScene" uid="uid://je72vehhcaxo" path="res://Scenes/plataform.tscn" id="4_4ekjs"]
+[ext_resource type="PackedScene" uid="uid://2ra7h2kutbj7" path="res://Scenes/npc.tscn" id="6_mcybu"]
 
 [node name="Main" type="Node2D"]
 position = Vector2(-2, 3)
-metadata/_edit_vertical_guides_ = [1152.0]
-metadata/_edit_horizontal_guides_ = [3.0, 651.0]
+metadata/_edit_vertical_guides_ = [1152.0, 1201.0]
+metadata/_edit_horizontal_guides_ = [3.0, 651.0, 268.0]
+
+[node name="Area2D" parent="." instance=ExtResource("6_mcybu")]
+position = Vector2(1003, 562)
 
 [node name="Door" parent="." instance=ExtResource("1_xnp6t")]
 position = Vector2(508, 599)
