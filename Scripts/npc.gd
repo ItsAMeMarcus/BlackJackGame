@@ -15,8 +15,12 @@ func _on_body_entered(body):
 	pass
 
 func _on_area_entered(area):
-	$AnimatedSprite2D.play("npc_dead")
-	$Timer.start()
+	if area.name == "bullet":
+		$AnimatedSprite2D.play("npc_dead")
+		$Timer.start()
+		Global.is_clown_moving = false
+	if area.name.begins_with("Wall"):
+		pass
 
 
 func _on_timer_timeout():

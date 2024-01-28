@@ -411,10 +411,7 @@ shape = SubResource("CapsuleShape2D_pivad")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(-11, 2)
 sprite_frames = SubResource("SpriteFrames_w40pl")
-animation = &"attack"
-frame = 2
 offset = Vector2(0, -11)
-flip_h = true
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(22, 0)

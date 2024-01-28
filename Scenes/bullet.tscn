@@ -10,9 +10,9 @@ size = Vector2(13, 7)
 texture = ExtResource("1_nwqtd")
 script = ExtResource("2_wxbnj")
 
-[node name="Area2D" type="Area2D" parent="."]
+[node name="bullet" type="Area2D" parent="."]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="bullet"]
 position = Vector2(1.5, 0.5)
 shape = SubResource("RectangleShape2D_3r6f5")
 
@@ -20,6 +20,6 @@ shape = SubResource("RectangleShape2D_3r6f5")
 position = Vector2(1.5, 0.5)
 scale = Vector2(0.65, 0.35)
 
-[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]
-[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="area_entered" from="bullet" to="." method="_on_area_2d_area_entered"]
+[connection signal="body_entered" from="bullet" to="." method="_on_area_2d_body_entered"]
 [connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_exited"]

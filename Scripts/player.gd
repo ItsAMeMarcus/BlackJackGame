@@ -5,7 +5,7 @@ var inspectable_text : RichTextLabel
 @export var JUMP_VELOCITY = -200.0
 @onready var bullet = preload("res://Scenes/bullet.tscn")
 var b
-var gravity  = ProjectSettings.get_setting("physics/2d/default_gravity")
+@export var gravity = 500
 
  #custom signals
 signal update_lives(lives, max_lives)

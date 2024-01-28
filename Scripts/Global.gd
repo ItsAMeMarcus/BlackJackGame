@@ -6,11 +6,13 @@ var is_on_door = false
 
 var is_jumping = false
 
-var bullet_position
+var is_clown_moving = true
+
+var current_scene_name
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
+	current_scene_name = get_tree().get_current_scene().name
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
