@@ -1,10 +1,8 @@
-[gd_scene load_steps=7 format=3 uid="uid://je72vehhcaxo"]
+[gd_scene load_steps=6 format=3 uid="uid://ys7ymqej0o8a"]
 
 [ext_resource type="Script" path="res://Scripts/wall.gd" id="1_lj4e1"]
-[ext_resource type="Texture2D" uid="uid://1bdvd6pt2ktd" path="res://Assets/Kings and Pigs/Sprites/14-TileSets/Terrain (32x32).png" id="1_vqdnd"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_k7i14"]
-texture = ExtResource("1_vqdnd")
 2:2/0 = 0
 2:2/0/terrain_set = 0
 2:2/0/terrain = 0

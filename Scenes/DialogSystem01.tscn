@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://dubyv3dehc7j7"]
+
+[ext_resource type="Script" path="res://Scripts/DialogSystem01.gd" id="1_svgrs"]
+[ext_resource type="Texture2D" uid="uid://cw0cxlb8xmx21" path="res://Assets/balão1.png" id="2_a50h7"]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(21, 11)
+script = ExtResource("1_svgrs")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(193, 19)
+texture = ExtResource("2_a50h7")
+
+[node name="Dialog" type="RichTextLabel" parent="."]
+offset_left = -4.0
+offset_top = -2.0
+offset_right = 403.0
+offset_bottom = 42.0
+bbcode_enabled = true
+text = "ftssdffsfd"
+
+[node name="Timer" type="Timer" parent="."]

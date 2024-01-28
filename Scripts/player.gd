@@ -2,10 +2,10 @@ extends CharacterBody2D
 
 var inspectable_text : RichTextLabel
 @export var SPEED = 100.0
-@export var JUMP_VELOCITY = -200.0
+@export var JUMP_VELOCITY = -225.0
 @onready var bullet = preload("res://Scenes/bullet.tscn")
 var b
-@export var gravity = 500
+var gravity  = 500
 
  #custom signals
 signal update_lives(lives, max_lives)

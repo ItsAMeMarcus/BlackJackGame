@@ -411,6 +411,7 @@ shape = SubResource("CapsuleShape2D_pivad")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(-11, 2)
 sprite_frames = SubResource("SpriteFrames_w40pl")
+animation = &"run"
 offset = Vector2(0, -11)
 
 [node name="Camera2D" type="Camera2D" parent="."]
@@ -418,8 +419,8 @@ position = Vector2(22, 0)
 zoom = Vector2(3, 3)
 limit_left = -2
 limit_top = -3
-limit_right = 1152
-limit_bottom = 650
+limit_right = 9440
+limit_bottom = 655
 
 [node name="Marker2D" type="Marker2D" parent="."]
 position = Vector2(8, 0)

@@ -1,6 +1,7 @@
 extends Area2D
 
 
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	$AnimatedSprite2D.play("npc_default")
@@ -10,6 +11,8 @@ func _ready():
 func _process(delta):
 	pass
 
+#func _physics_process(delta):
+	#Vector2.y += 500 * delta
 
 func _on_body_entered(body):
 	pass
